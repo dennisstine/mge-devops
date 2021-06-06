@@ -1,0 +1,153 @@
+<div class="flexbox-parent container">
+  <div layout="row" layout-align="center center">
+
+    <h1 class="content-header">Tools Owned/Supported by MGE DevOps</h1>
+    <h3>Links open in a new tab/window <i class="material-icons md-18">open_in_new</i></h3>
+
+    <mat-tab-group>
+
+      <!-- Current Tools -->
+      <mat-tab label="Current">
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-jenkins"></div>
+            <mat-card-title>Jenkins</mat-card-title>
+            <mat-card-subtitle>CI/CD Server</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              A free and open source automation server. It helps automate the parts of software development related
+              to building, testing, and deploying, facilitating continuous integration and continuous delivery.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-raised-button class="mat-primary" href="https://jenkins.travelhq.com" target="_blank">MGE Jenkins</a>
+            <a mat-raised-button href="https://www.jenkins.io" target="_blank">Official Site</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-gitlab"></div>
+            <mat-card-title>GitLab</mat-card-title>
+            <mat-card-subtitle>Version Control System</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              A web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking
+              and continuous integration and deployment pipeline features, using an open-source license.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-raised-button class="mat-primary" href="https://gitlab.travelhq.com" target="_blank">MGE GitLab</a>
+            <a mat-raised-button href="https://www.gitlab.com" target="_blank">Official Site</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-opengrok"></div>
+            <mat-card-title>OpenGrok</mat-card-title>
+            <mat-card-subtitle>Source Code Search Engine</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              A source code search and cross reference engine. It helps programmers to search, cross-reference and
+              navigate source code trees to aid code comprehension.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-raised-button class="mat-primary" href="https://devops.travelhq.com:8080/opengrok" target="_blank">MGE OpenGrok</a>
+            <a mat-raised-button href="https://www.oracle.github.io/opengrok/" target="_blank">Official Site</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-artifactory"></div>
+            <mat-card-title>Artifactory</mat-card-title>
+            <mat-card-subtitle>Maven Repository, npm Registry, and Docker Registry</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              An artifact repository that manages the end-to-end artifact lifecycle; a source for artifacts needed for
+              a build and a target to which artifacts generated during a build process may be deployed.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-raised-button class="mat-primary" href="https://artifactory.travelhq.com" target="_blank">MGE Artifactory</a>
+            <a mat-raised-button href="https://www.jfrog.com/artifactory/" target="_blank">Official Site</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-sonarqube"></div>
+            <mat-card-title>SonarQube</mat-card-title>
+            <mat-card-subtitle>Static Analysis Tool</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              an open-source platform developed by SonarSource for continuous inspection of code quality to perform
+              automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-raised-button class="mat-primary" href="https://sonar.travelhq.com" target="_blank">MGE SonarQube</a>
+            <a mat-raised-button href="https://www.sonarqube.org/" target="_blank">Official Site</a>
+          </mat-card-actions>
+        </mat-card>
+      </mat-tab>
+      <!-- End Current Tools -->
+
+      <!-- Start Legacy Tools -->
+      <mat-tab label="Legacy">
+
+        <h3 class="content-header"><i class="material-icons md-24 warning">warning</i> Links may break as servers are retired.</h3>
+
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-jenkins"></div>
+            <mat-card-title>Jenkins</mat-card-title>
+            <mat-card-subtitle>Previous CI/CD Server</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions>
+            <a mat-raised-button class="tools-deprecated" href="ttps://build.travelhq.com/jenkins" target="_blank">Legacy MGE Jenkins</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-mercurial"></div>
+            <mat-card-title>Mercurial</mat-card-title>
+            <mat-card-subtitle>Previous Version Control System</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions>
+            <a mat-raised-button class="tools-deprecated" href="https://build.travelhq.com/hg" target="_blank">Legacy MGE Mercurial</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-opengrok"></div>
+            <mat-card-title>OpenGrok</mat-card-title>
+            <mat-card-subtitle>Previous Source Code Search Engine</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions>
+            <a mat-raised-button class="tools-deprecated" href="https://build.travelhq.com/source" target="_blank">Legacy MGE OpenGrok</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="tools-card">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-nexus"></div>
+            <mat-card-title>Nexus</mat-card-title>
+            <mat-card-subtitle>Previous Maven Repository and npm Registry</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions>
+            <a mat-raised-button class="tools-deprecated" href="http://10.34.176.180:32778/" target="_blank">Legacy MGE Nexus</a>
+          </mat-card-actions>
+        </mat-card>
+      </mat-tab>
+      <!-- End Legacy Tools -->
+
+      <!-- Start Upcoming Tools -->
+      <mat-tab label="Upcoming"> Check Back Later
+      </mat-tab>
+      <!-- End Upcoming Tools -->
+    </mat-tab-group>
+  </div>
+</div>

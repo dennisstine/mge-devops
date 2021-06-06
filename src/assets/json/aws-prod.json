@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "awsuselxmtpxyp40",
+    "Instance type": "m5.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.3.40"
+  },
+  {
+    "Name": "awsuselxmtwapp40",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.40"
+  },
+  {
+    "Name": "awsuselxmtwapp42",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.42"
+  },
+  {
+    "Name": "awsuselxmtwapp44",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.44"
+  },
+  {
+    "Name": "awsuselxmtwapp50",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.50"
+  },
+  {
+    "Name": "awsuselxmtp16",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.16"
+  },
+  {
+    "Name": "awsuselxmtp24",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.24"
+  },
+  {
+    "Name": "awsuselxmtp22",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.2.22"
+  },
+  {
+    "Name": "awsusesqlmtp06",
+    "Instance type": "m5.2xlarge",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.4.6"
+  },
+  {
+    "Name": "awsuselxmthdfp13",
+    "Instance type": "r5.xlarge",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.74"
+  },
+  {
+    "Name": "awsuselxmtpxyp41",
+    "Instance type": "m5.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.11.41"
+  },
+  {
+    "Name": "awsuselxmtwapp41",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.41"
+  },
+  {
+    "Name": "awsuselxmtwapp43",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.43"
+  },
+  {
+    "Name": "awsuselxmtwapp45",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.45"
+  },
+  {
+    "Name": "awsuselxmtwapp51",
+    "Instance type": "r5.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.51"
+  },
+  {
+    "Name": "awsuselxmtp17",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.17"
+  },
+  {
+    "Name": "awsuselxmtp23",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.10.23"
+  },
+  {
+    "Name": "awsuselxmtp21",
+    "Instance type": "r3.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.11.21"
+  },
+  {
+    "Name": "awsuselxmtgemp50",
+    "Instance type": "t3.large",
+    "Availability Zone": "us-east-1a",
+    "Private IP address": "10.37.0.50"
+  },
+  {
+    "Name": "awsuselxmtgemp51",
+    "Instance type": "t3.large",
+    "Availability Zone": "us-east-1b",
+    "Private IP address": "10.37.8.51"
+  }
+]
